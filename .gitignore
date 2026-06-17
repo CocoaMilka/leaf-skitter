@@ -1,3 +1,5 @@
 *.o
 *.a
 
+# binaries
+leaf-skitter
