@@ -6,7 +6,8 @@ SRC = src/main.cpp src/input.cpp
 BUILD = build/leaf-skitter
 
 
-all: 
+all:
+	mkdir -p build
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(BUILD) $(LDFLAGS)
 
 run: all
